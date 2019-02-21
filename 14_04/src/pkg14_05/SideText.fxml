@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--My name is Joseph Posey and this is my Work-->
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg14_05.SideTextController">
+   <children>
+      <Text fx:id="t1" layoutX="97.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 90;" text="Java">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="t2" layoutX="169.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 90;" text="Java">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="t3" layoutX="257.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 90;" text="Java">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="t4" layoutX="333.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 90;" text="Java">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="t5" layoutX="434.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 90; -fx-fill: green;" text="Java">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="217.0" layoutY="209.0" mnemonicParsing="false" onAction="#RandButton" prefHeight="74.0" prefWidth="147.0" text="Randomize" />
+   </children>
+</AnchorPane>
